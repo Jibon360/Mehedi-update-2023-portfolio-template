@@ -1,0 +1,59 @@
+.navbar-nav.singleblonav {
+    padding: 10px 0 !important;
+}
+
+.single-blog .cateogry-blog {
+    background-color: var(--orange);
+    color: var(--white);
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.single-blog .blog-tittle {
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.single-blog p {
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--dark);
+    text-align: justify;
+}
+
+.share ul li span {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--orange);
+}
+
+.share ul li a i {
+    font-size: 18px;
+    border: 2px solid var(--dark);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    color: var(--dark);
+    transition: var(--transition);
+}
+
+.share ul li a i:hover {
+    transform: rotate(360deg);
+    transition: var(--transition);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    color: var(--white);
+}
+
+.related-blog .sec-cap .caption-left h2 {
+    font-size: 27px;
+    color: var(--dark);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
